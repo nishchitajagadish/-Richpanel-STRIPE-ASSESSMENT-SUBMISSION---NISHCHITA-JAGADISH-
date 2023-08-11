@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: adobe-clean, sans-serif;
+}
+body{
+    background-color: #1f4d92;
+}
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+div.Acc{
+    text-align: center;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 550;
+}
+div.register{
+    background-color: white;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 17px;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-size: 14px;
+    padding: auto;
+    width: auto;
+    font-weight: 400;
+    margin-bottom: 20px;    
+}
+input#name{
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: 0;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    }
+input#submit{
+    box-align: center;
+    height: 46px;
+    width: 295px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: #1f4d92;
+    color: white;
+    border-radius: 4px;
+}
+input#checkbox{
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+    font-size: 12px;
+}
+div.Already{
+    font-size: 14px;
+    text-align: center;
+}
